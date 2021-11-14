@@ -1,0 +1,70 @@
+.one-weather-tv {
+  width: 40%;
+  height: 200px;
+  border: 1px solid black;
+  margin: 15px 20px;
+  overflow: hidden;
+  position: relative;
+  padding: 20px;
+}
+.weather-tv {
+  height: 550px;
+}
+.weather-tv .container {
+  background: #ffffffe0;
+  height: 100%;
+  margin-top: 70px;
+}
+.title-tv {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 25px;
+  padding-top: 30px;
+  color: #bc2525;
+}
+.img-tv {
+  width: 100%;
+  max-width: 100%;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.bg-one-tv {
+  width: 100%;
+  height: 100%;
+  background: #000000a1;
+  z-index: 3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+}
+.name-tv {
+  color: white;
+  position: absolute;
+  z-index: 5;
+  font-size: 25px;
+  left: 0;
+  top: 40%;
+  right: 0;
+  text-align: center;
+  font-weight: 500;
+}
+.one-weather-tv:hover .bg-one-tv {
+  visibility: visible !important;
+  opacity: 1 !important;
+  transition: 0.5s;
+}
+
+@media (max-width: 576px) {
+  .one-weather-tv {
+    height: 80px;
+    margin: 10px 10px;
+  }
+  .weather-tv {
+    height: 380px;
+  }
+}

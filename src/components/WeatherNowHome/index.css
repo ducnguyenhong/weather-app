@@ -1,0 +1,92 @@
+.weather-now-home {
+  height: 500px;
+}
+.weather-now-home .container {
+  height: 100%;
+  padding: 0;
+}
+.weather-now-home .row-flex {
+  width: 100%;
+  height: 380px;
+  background: #00000091;
+}
+.weather-now-home .row-item {
+  height: 100%;
+  background: #0000006b;
+}
+.weather-now-home .col-sm-8 {
+  height: 100%;
+}
+.container-flex {
+  height: 100%;
+}
+.one-day-now {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.now-city {
+  font-size: 25px;
+  margin-top: 25px;
+}
+.now-icon {
+  width: 60%;
+}
+.now-temp {
+  margin-top: 20px;
+}
+.now-humid {
+  margin-top: 18px;
+}
+.now-uv {
+}
+.now-day {
+  margin-top: 15px;
+}
+.now-pres {
+}
+.btn-location {
+}
+.fs-18 {
+  font-size: 18px;
+}
+.week-date {
+  margin-top: 55%;
+}
+.week-icon {
+  width: 80%;
+}
+.week-temp {
+  margin-bottom: 75%;
+}
+.fs-22 {
+  font-size: 22px;
+}
+
+@media (max-width: 576px) {
+  .now-icon {
+    width: 100px;
+  }
+  .weather-now-home {
+    height: 600px;
+  }
+  .weather-now-home .d-flex {
+    display: block !important;
+  }
+  .weather-now-home .row-flex {
+    width: 100%;
+    margin: 0;
+    margin-top: 50px;
+    height: 540px;
+  }
+  .weather-now-home .col-sm-8 {
+    display: none;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+  .weather-now-home .row-flex {
+    height: 460px;
+  }
+}

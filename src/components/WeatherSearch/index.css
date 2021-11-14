@@ -1,0 +1,73 @@
+.weather-search {
+  margin: 70px 0;
+}
+.weather-search .container {
+  background: #0000008a;
+  padding: 10px 50px 30px 50px;
+}
+.weather-search .nav-item {
+  width: 50%;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: white;
+}
+.weather-search .nav-link.active {
+  color: red !important;
+}
+.title-search {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 25px;
+  margin-bottom: 30px;
+  padding-top: 20px;
+}
+.weather-search .tab-content {
+  background: white;
+  padding: 70px 0;
+}
+.weather-search .modal-content {
+  width: 1000px;
+  left: -250px;
+}
+.non-position-title {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: red;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.non-position-content {
+  font-size: 18px;
+  margin: 30px 0;
+}
+@media (max-width: 576px) {
+  .weather-search .col-sm-2 {
+    text-align: center;
+  }
+  .weather-search .modal-content {
+    width: 100%;
+    left: 0;
+  }
+  .modal-content .col-sm-4 {
+    width: 33%;
+  }
+  .weather-search .weather7item {
+    width: 27%;
+    margin: 10px 10px;
+    float: left;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+  .weather-search .modal-dialog {
+    width: 90%;
+    margin: 0 !important;
+    max-width: 100%;
+    left: 40px;
+    top: 50px;
+  }
+  .weather-search .modal-content {
+    width: 100%;
+    left: 0;
+  }
+}

@@ -1,0 +1,138 @@
+.weather63 {
+  width: 100%;
+  height: 600px;
+}
+.weather63 .container {
+  background: #ffffffe3;
+  height: 100%;
+  padding: 0;
+}
+.weather63 .row-63-1 {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+.weather63 .row-63-2 {
+  width: 100%;
+  margin: 0;
+  margin-top: 30px;
+}
+.weather63 .dropdown-menus {
+  overflow-y: scroll;
+  height: 90%;
+}
+.weather63 .col-sm-2 {
+  padding: 0;
+  background: #00000000;
+  border-right: 1px solid #007bff42;
+  height: 100%;
+}
+.weather63 .col-sm-10 {
+  padding: 0;
+}
+.weather63 .dropdown-item:hover {
+  background: #a0e7ff;
+  font-weight: 500;
+  cursor: pointer;
+}
+.weather63 .label-city {
+  text-align: center;
+  padding: 10px 0;
+}
+.one-detail-63 {
+  height: 32%;
+  width: 100%;
+  margin: 0px 20px;
+}
+.weather63 .col-sm-4 {
+  padding: 0 50px;
+}
+.flex-63 {
+  flex-wrap: wrap;
+}
+.city-63 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 21px;
+  margin-top: 10px;
+}
+.long-63 {
+  margin-top: 20px;
+}
+.icon-63 {
+  width: 100px;
+}
+.temp-63 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.uv-63 {
+  margin-top: 20px;
+}
+.weather63 .modal-content {
+  width: 1000px;
+  left: -250px;
+}
+@media (max-width: 576px) {
+  .weather63 .col-sm-2 {
+    height: 250px;
+    overflow: hidden;
+    border-bottom: 2px solid #0808d478;
+    border-right: 0px;
+  }
+  .weather63 {
+    height: 1300px;
+  }
+  .weather63 .col-sm-4 {
+    width: 33%;
+    padding: 0;
+  }
+  .weather63 .weather7item {
+    width: 27%;
+    margin: 10px 10px;
+    float: left;
+  }
+  .weather63 .d-flex {
+    display: block !important;
+    width: 100%;
+  }
+  .weather63 .one-detail-63 {
+    margin: 0;
+    height: 300px;
+    padding: 0 10px;
+  }
+  .weather63 .one-detail-63:nth-child(2) {
+    height: 650px;
+  }
+  .weather63 button {
+    margin: 0 auto;
+    display: block;
+  }
+  .weather63 .modal-content {
+    width: 100%;
+    left: 0;
+  }
+  .history-63 {
+    display: none;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+  .weather63 .weather7item {
+    width: 10%;
+  }
+  .weather63 {
+    overflow: hidden;
+  }
+  .weather63 .modal-dialog {
+    width: 90%;
+    margin: 0 !important;
+    max-width: 100%;
+    left: 40px;
+    top: 50px;
+  }
+  .weather63 .modal-content {
+    width: 100%;
+    left: 0;
+  }
+}

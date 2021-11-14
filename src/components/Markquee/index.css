@@ -1,0 +1,31 @@
+.markquee {
+  padding-top: 20px;
+}
+.container-mq {
+  background: #000000a8;
+  height: 45px;
+  padding: 0;
+}
+.mq-full {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0;
+}
+.mq-title {
+  font-size: 17px;
+  text-align: center;
+  margin-top: 10px;
+}
+.mq-full marquee {
+  height: 100%;
+}
+.mq-full marquee span {
+  margin: 10px 30px;
+  display: inline-block;
+}
+
+@media (max-width: 576px) {
+  .markquee .col-sm-3 {
+    display: none;
+  }
+}

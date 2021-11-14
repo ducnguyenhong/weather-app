@@ -1,0 +1,54 @@
+.footer {
+  background: black;
+}
+.footer .row {
+  width: 100%;
+}
+.copyright {
+  margin-bottom: 0;
+  padding: 30px 0;
+}
+.ft-title {
+  padding-top: 30px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.ft-icon {
+}
+.ft-icon i {
+  font-size: 50px;
+  margin: 0 5px;
+  color: white;
+}
+.ft-logo {
+  width: 100px;
+  margin-top: 50px;
+}
+
+@media (max-width: 576px) {
+  .footer .row {
+    width: 100%;
+    margin: 0;
+  }
+  .footer a.col-sm-3 {
+    width: 25%;
+  }
+  .footer .col-sm-2 {
+    margin: 20px;
+    padding-bottom: 40px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+  .footer a.col-sm-3 {
+  }
+  .ft-icon {
+    margin: 0;
+  }
+  .ft-icon i {
+    font-size: 25px;
+  }
+}

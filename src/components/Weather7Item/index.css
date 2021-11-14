@@ -1,0 +1,15 @@
+.weather7item{
+  width: 12%;
+  margin: 0 10px;
+  border: 1px solid black;
+  background: #ffebeb;
+}
+.icon-7{
+  width: 50px;
+}
+.type-7{
+  margin-top: 15px;
+}
+.temp-7{
+  margin-top: 15px;
+}
